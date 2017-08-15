@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucero Ramos</title>
+
+  <meta name="author" content="Lucero" />
+  <link rel="shortcut icon" href="assets/img/logo_ladrillo.png">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/css/uikit.min.css" />
+  <link rel="stylesheet" href="css/acerca-de-mi.css">
+
+</head>
+
+<body cz-shortcut-listen="true">
+
+  <main class="">
+    <header>
+      <div class=" uk-visible@m" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+        <nav class="uk-navbar-container" uk-navbar="dropbar: true;" style="position: relative; z-index: 980;">
+          <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="uk-offcanvas-content uk-visible@xs uk-hidden@m barra">
+        <button class="uk-button uk-button-default uk-text-right" type="button" uk-toggle="target: #offcanvas-overlay"><a href="" uk-icon="icon: menu"></a></button>
+        <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+          <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <ul class="uk-list uk-list-divider">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#cerca-de-mi">Acerca de mi</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+
+      <div class="uk-grid-match uk-grid-small" uk-grid>
+        <div class="uk-width-1-6@m  bgimg-1 uk-visible@m uk-hidden@xs">
+        </div>
+        <div class="uk-width-2-3@m">
+          <section id="acerca-de-mi">
+            <div class="uk-card uk-card-default contenedor">
+              <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
+                <div class="uk-animation-toggle uk-width-2-3@m uk-width-1-2@l">
+                  <div class="uk-card  uk-card-body contenedor">
+                    <h1 class="titulo"> Acerca de mí</h1>
+                    <p class="uk-text-justify">Mi nombre es Lucero Ramos, egresada de la 4ta generación de Laboratoria como Desarrolladora Front-End y de la Universidad Veracruzana como Ingeniera Química. Trabajé algunos años en proyectos para la industria de Oil & Gas para empresas
+                      internacionales y ahora tengo un nuevo conjunto de superpoderes como Html + CSS + ❤ Javascript ❤ que continúo desarrollando día a día.</p>
+                    <p class="uk-text-justify">Disfruto obtener nuevos conocimientos que me ayuden a convertir problemas complejos en simples, pero disfruto mucho más el compartirlos con mi equipo y con la gente que me rodea. Soy una persona sencilla, una Cheff amateur que disfruta
+                      de pasear en bicicleta, oler flores y salir los domingos a algún parque a acariciar a los perritos de la gente.</p>
+                  </div>
+                </div>
+                <div class="uk-animation-toggle uk-width-1-3@m uk-width-1-2@l">
+                  <div class="uk-card  uk-card-body  contenedor"><img src="assets/img/luz.jpeg" alt="">
+                    <hr class="uk-divider-icon">
+                    <a target="_blank" class="uk-button botones" href="assets/pdf/CV_Lucero_Ramos.pdf"> Ver CV</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr class="uk-divider-icon separador">
+          <section id="habilidades" class="uk-text-center ">
+            <h1 class="titulo"> Habilidades</h1>
+            <div class="uk-child-width-expand@s uk-text-center uk-visible@xs uk-hidden@m" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Técnicas</div>
+
+                      <div class="progress1">
+                        <p>HTML5</p>
+                        <progress id="html5" max="100" value="80"></progress>
+                      </div>
+                      <div class="progress1">
+                        <p>Javascript</p>
+                        <progress id="javascript" max="100" value="80"></progress>
+                      </div>
+                      <div class="progress1">
+                        <p>css3</p>
+                        <progress id="css" max="100" value="80"></progress>
+                      </div>
+
+                      <div class="progress1">
+                        <p>jQuery</p>
+                        <progress id="jquery" max="100" value="60"></progress>
+                      </div>
+                      <div class="progress1">
+                        <p>Git</p>
+                        <progress id="git" max="100" value="60"></progress>
+                      </div>
+                      <div class="progress1">
+                        <p>Node.js</p>
+                        <progress id="nodejs" max="100" value="40"></progress>
+                      </div>
+                      <div class="progress1">
+                        <p>React</p>
+                        <progress id="react" max="100" value="40"></progress>
+                      </div>
+
+
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Framewok</div>
+
+                      <div class="progress1">
+                        <p>Materialize</p>
+                        <progress id="materialize" max="100" value="85"></progress>
+                      </div>
+                      <div class="clear"></div>
+                      <div class="progress1">
+                        <p>Bootstrap</p>
+                        <progress id="bootstrap" max="100" value="85"></progress>
+                      </div>
+                      <div class="clear"></div>
+                      <div class="progress1">
+                        <p>Foundation</p>
+                        <progress id="foundation" max="100" value="85"></progress>
+                      </div>
+                      <div class="progress1">
+                        <p>Uikit</p>
+                        <progress id="foundation" max="100" value="40"></progress>
+                      </div>
+
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Logros</div>
+
+                      <ul class="uk-text-left">
+                        <li>2do Lugar en "Desafío: Rompe la barrera virtual con Mercado Pago."</li>
+                        <li class="logro"><img width="100vw" height="60vh" src="assets/img/comonina.jpeg" alt="como Niña"> 3er Lugar HACKATÓN #COMONIÑA <a href="http://www.eluniversal.com.mx/articulo/cartera/emprendedor/2017/05/27/hackaton-para-empoderar-mujeres-y-ninas">Nota El Universal </a></li>
+                        <li class="logro"><img width="100vw" height="60vh" src="assets/img/ux.jpeg" alt="UXMéxico"> Taller UX México </li>
+                        <li class="logro"><img width="100vw" height="60vh" src="assets/img/paypal.jpg" alt="Certificado PayPal"> Desarrolladora Certificada de PayPal </li>
+                        <li class="logro"><img width="100vw" height="60vh" src="assets/img/platzi.png" alt="Platzi"> Curso de Programación Básica </li>
+                      </ul>
+
+                </div>
+            </div>
+
+            <div class="uk-text-center  uk-visible@m uk-hidden@xs" uk-grid>
+              <div class="uk-width-1-3@m  ">
+                <div class="borde  uk-card-body uk-width-1-3@xs" id="toggle04" name="boton">
+                  <h4 class="uk-text-center ">Técnicas</h4>
+                  <div class="" id="icono-tecnicas">
+                    <img width="35vh" src="assets/img/tecnica.png" alt="tecnicas">
+                  </div>
+                </div>
+                <div class="borde uk-card  uk-card-body uk-width-1-3@xs" type="button" id="toggle05" name="boton1">
+                  <h4 class=" uk-margin-large uk-margin-bottom">Framework</h4>
+                  <div class="uk-card-body ">
+                    <img width="35vh" src="assets/img/diseño.png" alt="framework">
+                  </div>
+                </div>
+                <div class="borde uk-card uk-card-body uk-width-1-3@xs" type="button" id="toggle06" name="boton1">
+                  <h4 class="uk-text-center">Logros</h4>
+                  <div class="uk-card-body">
+                    <img width="35vh" src="assets/img/logros.png" alt="logros">
+                  </div>
+                </div>
+              </div>
+              <div class=" uk-width-3-3@s uk-width-2-3@m ">
+                <div class=" uk-card-body" id="rectangulo4">
+                  <div class="progress1">
+                    <p>HTML5</p>
+                    <progress id="html5" max="100" value="80"></progress>
+                  </div>
+                  <div class="progress1">
+                    <p>Javascript</p>
+                    <progress id="javascript" max="100" value="80"></progress>
+                  </div>
+                  <div class="progress1">
+                    <p>css3</p>
+                    <progress id="css" max="100" value="80"></progress>
+                  </div>
+
+                  <div class="progress1">
+                    <p>jQuery</p>
+                    <progress id="jquery" max="100" value="60"></progress>
+                  </div>
+                  <div class="progress1">
+                    <p>Git</p>
+                    <progress id="git" max="100" value="60"></progress>
+                  </div>
+                  <div class="progress1">
+                    <p>Node.js</p>
+                    <progress id="nodejs" max="100" value="40"></progress>
+                  </div>
+                  <div class="progress1">
+                    <p>React</p>
+                    <progress id="react" max="100" value="40"></progress>
+                  </div>
+
+                </div>
+                <div class=" uk-card-body" id="rectangulo5">
+                  <div class="progress1">
+                    <p>Materialize</p>
+                    <progress id="materialize" max="100" value="85"></progress>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="progress1">
+                    <p>Bootstrap</p>
+                    <progress id="bootstrap" max="100" value="85"></progress>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="progress1">
+                    <p>Foundation</p>
+                    <progress id="foundation" max="100" value="85"></progress>
+                  </div>
+                  <div class="progress1">
+                    <p>Uikit</p>
+                    <progress id="foundation" max="100" value="40"></progress>
+                  </div>
+                </div>
+                <div class=" uk-card-body" id="rectangulo6">
+                  <ul class="uk-text-left">
+                    <li>2do Lugar en "Desafío: Rompe la barrera virtual con Mercado Pago."</li>
+                    <li class="logro"><img width="100vw" height="60vh" src="assets/img/comonina.jpeg" alt="como Niña"> 3er Lugar HACKATÓN #COMONIÑA <a href="http://www.eluniversal.com.mx/articulo/cartera/emprendedor/2017/05/27/hackaton-para-empoderar-mujeres-y-ninas">Nota El Universal </a></li>
+                    <li class="logro"><img width="100vw" height="60vh" src="assets/img/ux.jpeg" alt="UXMéxico"> Taller UX México </li>
+                    <li class="logro"><img width="100vw" height="60vh" src="assets/img/paypal.jpg" alt="Certificado PayPal"> Desarrolladora Certificada de PayPal </li>
+                    <li class="logro"><img width="100vw" height="60vh" src="assets/img/platzi.png" alt="Platzi"> Curso de Programación Básica </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr class="uk-divider-icon separador">
+          <section id="proyectos" class="uk-text-center">
+            <h1 class="titulo">Proyectos</h1>
+            <div class="uk-child-width-2-2 uk-child-width-1-3@s uk-child-width-1-3@l uk-grid-match uk-grid-small" uk-grid>
+              <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle">
+                  <img src="assets/img/labcar.jpg" alt="">
+                  <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                    <p class="uk-h4 uk-margin-remove">
+                      <h4>Labcar</h4>
+                      <p>Uso de Bootstrap.</p>
+                      <span class="fa-stack fa-lg"><a target="_blank" href="https://lucero07.github.io/Lab-car/">
+                              <i class="fa fa-square-o fa-stack-2x"></i>
+                              <i class="fa fa-eye fa-stack-1x"></i></a>
+                            </span>
+                      <span class="fa-stack fa-lg"><a  target="_blank" href="https://github.com/Lucero07/Lab-car">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x"></i></a>
+                          </span>
+                    </p>
+                  </div>
+                </div>
+                <p class="uk-margin-small-top">LabCar</p>
+              </div>
+              <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle">
+                  <img src="assets/img/placeit (2).jpg" alt="Día de Muertos">
+                  <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                    <p class="uk-h4 uk-margin-remove">
+                      <h4>Día de Muertos</h4>
+                      <p>El objetivo de este proyecto era mostrar una parte de México a un grupo de desarrolladores de Kansas. </p>
+                      <span class="fa-stack fa-lg"><a target="_blank" href="https://lucero07.github.io/Knowing-Mexico/">
+                                  <i class="fa fa-square-o fa-stack-2x"></i>
+                                  <i class="fa fa-eye fa-stack-1x"></i></a>
+                                </span>
+                      <span class="fa-stack fa-lg"><a target="_blank" href="https://github.com/Lucero07/Knowing-Mexico">
+                                  <i class="fa fa-square-o fa-stack-2x"></i>
+                                  <i class="fa fa-github fa-stack-1x"></i></a>
+                                </span>
+                    </p>
+                  </div>
+                </div>
+                <p class="uk-margin-small-top">Knowing-Mexico</p>
+              </div>
+              <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle">
+                  <img src="assets/img/placeit.jpg" alt="">
+                  <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                    <p class="uk-h4 uk-margin-remove">
+                      <h4>Tronaldump</h4>
+                      <p>En este proyect</p>
+                      <span class="fa-stack fa-lg"><a target="_blank" href="https://tronaldump.herokuapp.com/">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-eye fa-stack-1x"></i></a>
+                          </span>
+                      <span class="fa-stack fa-lg"><a target="_blank" href="">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x"></i></a>
+                          </span>
+                    </p>
+                  </div>
+                </div>
+                <p class="uk-margin-small-top">Chat</p>
+              </div>
+              <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle">
+                  <img src="assets/img/lyft.jpg" alt="">
+                  <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                    <p class="uk-h4 uk-margin-remove">
+                      <h4>Lyft</h4>
+                      <p>Proyecto desarrollado en Laboratoria, usando de CSS5 y Javascript </p>
+                      <span class="fa-stack fa-lg"><a target="_blank" href="https://lucero07.github.io/clone-lyft/">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-eye fa-stack-1x"></i></a>
+                          </span>
+                      <span class="fa-stack fa-lg"><a target="_blank" href="https://github.com/Lucero07/clone-lyft/blob/master/index.html">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x"></i></a>
+                          </span>
+                    </p>
+                  </div>
+                </div>
+                <p class="uk-margin-small-top">lyft</p>
+              </div>
+              <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle">
+                  <img src="assets/img/placeit (1).jpg" alt="">
+                  <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                    <p class="uk-h4 uk-margin-remove">
+
+                      <h4>yoDecido</h4>
+                      <p>Es una plataforma que integra instituciones públicas y privadas para la prevención del aborto.<br>Logro: Tercer Lugar</p>
+                      <span class="fa-stack fa-lg"><a target="_blank" href="https://lucero07.github.io/yoDecido/">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-eye fa-stack-1x"></i></a>
+                          </span>
+                      <span class="fa-stack fa-lg"><a target="_blank" href="https://github.com/Lucero07/yoDecido">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x"></i></a>
+                          </span>
+                    </p>
+                  </div>
+                </div>
+                <p class="uk-margin-small-top">yoDecido</p>
+              </div>
+
+              <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle">
+                  <img src="assets/img/placeit (4).jpg" alt="">
+                  <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                    <p class="uk-h4 uk-margin-remove">
+                      <h4>Lista Restaurantes</h4>
+                      <p>El objetivo del proyecto es consumir API de Google</p>
+                      <span class="fa-stack fa-lg"><a target="_blank" href="https://lucero07.github.io/Lista-Restaurantes/">
+                      <i class="fa fa-square-o fa-stack-2x"></i>
+                      <i class="fa fa-eye fa-stack-1x"></i></a>
+                    </span>
+                      <span class="fa-stack fa-lg"><a target="_blank" href="https://github.com/Lucero07/Lista-Restaurantes">
+                      <i class="fa fa-square-o fa-stack-2x"></i>
+                      <i class="fa fa-github fa-stack-1x"></i></a>
+                    </span>
+                    </p>
+                  </div>
+                </div>
+                <p class="uk-margin-small-top">GarnachaPower</p>
+              </div>
+
+            </div>
+          </section>
+          <hr class="uk-divider-icon separador">
+          <section id="contacto" class="uk-text-center">
+            <h1 class="titulo">Contacto</h1>
+            <div class="">
+              <a target="_blank" title="(78) 2152 3410 " uk-tooltip="pos: bottom" href="https://api.whatsapp.com/send?phone=7821523410&"><i class="fa fa-whatsapp fa-2x color" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/lucero-ramos-71ba44b4/" target="_blank" title="Linkedin" alt="Lucero Ramos L"><i class="fa fa-linkedin-square fa-2x color" aria-hidden="true"></i></a>
+              <a href="https://github.com/Lucero07" target="_blank" title="Github" alt="Lucero Ramos L"><i class="fa fa-github fa-2x color" aria-hidden="true"></i></a>
+              <a href="mailto: ing.lucero.ramos@gmail.com" target="_blank" title="ing.lucero.ramos@gmail.com" alt="Lucero Ramos L"><i class="fa fa-envelope fa-2x color" aria-hidden="true"></i></a>
+
+            </div>
+            <div title="Tel" alt="Lucero Ramos L"><i class="fa fa-phone-square fa-2x color" aria-hidden="true"> 7821863553</i></div>
+            </span>
+
+          </section>
+
+        </div>
+        <div class="uk-width-1-6@m bgimg-2 uk-visible@m uk-hidden@xs">
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit-icons.min.js"></script>
+
+  <script src="js/main.js"></script>
+  <script src="js/barras.js" charset="utf-8"></script>
+
+</body>
+
+</html>

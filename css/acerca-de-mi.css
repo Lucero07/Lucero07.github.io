@@ -1,0 +1,221 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    }
+
+
+
+.bgimg-1 {
+    background-image: url("../assets/img/flor3.png");
+    min-height: 100vh;
+    opacity: 9;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center left;
+    transform: scaleX(-1);
+
+}
+
+.bgimg-2 {
+  background-image: url("../assets/img/flor3.png");
+  min-height: 100vh;
+  opacity: 9;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center right;
+
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.bgimg-3>.caption {
+    background-position: top center;
+    top: 30%;
+}
+
+.caption span.border {
+    font-family: 'Courgette', cursive;
+    color: #F21368;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: #b30d57;
+}
+
+#ACERCA-DE-MI {
+    background-color: #F49393;
+    color: #111;
+}
+
+.separador {
+    color: #F21368;
+}
+
+hr {
+    border-width: medium;
+    border: solid #000;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 3rem "Cormorant Garamond", sans-serif;
+    color: #111;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, {
+        background-attachment: scroll;
+    }
+    .contenedor{
+      font-size: 1.5rem;
+    }
+}
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: black;
+}
+.uk-navbar-nav>li>a {
+    color: #ba4e8e;
+  }
+  .uk-navbar-nav>li.uk-active>a {
+      color: #000;
+      background-color: #ba4e8e;
+  }
+  .titulo{
+    color:#ba4e8e;
+  }
+  .botones{
+    background-color: #ba4e8e;
+    color: #fff;
+  }
+.botones:hover{
+  background: none;
+  border: 2px solid #ba4e8e;
+  color: #000;
+}
+ .derecho{
+  background-image: url("../assets/img/flor3.png");
+  background-position: top center;
+  background-size: auto;
+}
+.izquierdo{
+  background-image: url("../assets/img/flor3.png");
+
+  background-position: top center;
+  background-size: auto;
+}
+.contenedor{
+  background-color: #e2becd;
+  font-size: 1.1rem;
+}
+.contenedor>img{
+  border-radius: 50px;
+  border-style: double;
+  border-color:  #e2becd;
+}
+.contenedor:hover{
+  color:#000;
+
+}
+.barra{
+  background-color: #000;
+  position: fixed;
+z-index: 23;
+
+}
+.uk-button-default {
+    background-color: #ba4e8e;
+  }
+@media screen and (max-width: 40em) {
+  .uk-navbar-container:not(.uk-navbar-transparent) {
+    background: black;
+    font-size: .7rem;
+}
+.contenedor{
+  font-size: .7rem;
+}
+
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: 40%;
+    height: 2vh;
+    overflow: hidden;
+    border: 1px inset #111;
+    background-color: #111;
+    border-radius: 20px;
+}
+
+.progress1 {
+    color: #000;
+}
+
+progress::-webkit-progress-value {
+    background: #ba4e8e;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #111;
+    box-shadow: 0 2px 5px rgba(246, 12, 12, 0.25) inset;
+    border-radius: 20px;
+}
+
+.borde{
+  background-color: none;
+  border:2px solid #e2becd;
+}
+.borde:hover{
+  background-color: #e2becd;
+  color:blue;
+}
+ #rectangulo5, #rectangulo6{
+  display: none;
+}
+.fondo{
+  background-color: #e2becd;
+}
+.logro{
+line-height: 5.5;
+}
+
+.proyectos>img {
+    border-style: none;
+    height: 35vh;
+  }
+  .proyectos>h4{
+    color:#bc31b4;
+  }
+  .vista{
+    height: 100vh;
+  }
+  .fondo{
+    background-color: #e2becd;
+  }
+  .centro{s
+    margin-left: 22svw;
+  }
+  .separador{
+
+  }
+  .color{
+  color:#ba4e8e;
+}
+#contacto{
+  background-color: #000;
+}
